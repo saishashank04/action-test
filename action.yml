@@ -1,0 +1,13 @@
+name: "Thank you Action"
+decription: "Say thank you to pull requests"
+author: "Sai Shashank"
+
+inputs: 
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  
+runs: 
+  using: 'node12'
+  main: 'dist/index.js'
+  
